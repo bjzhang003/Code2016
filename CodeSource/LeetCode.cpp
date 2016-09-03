@@ -13,10 +13,10 @@
 #include<functional>
 #include<unordered_set>
 #include<bitset>
-#include <sstream>
-#include<Windows.h>
+#include<sstream>
 #include<fstream>
 #include<assert.h>
+#include<unistd.h>
 #include"File_ListNode.h"
 #include"File_TreeNode.h"
 #include"A_Binary_Search.h"
@@ -36,6 +36,5 @@ int main()
 	tuple<int, int, int> Data;
 
 	std::cout << std::endl << std::endl << "End My Code Now !" << std::endl;
-	system("pause");
 	return 0;
 }
