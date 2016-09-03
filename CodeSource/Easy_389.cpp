@@ -40,7 +40,7 @@ class Find_The_Difference{
 
 			for(int i=0;i<26;i++)
 			{
-				if(sLetter[i]==0&&tLetter[i]>0)
+				if(tLetter[i]>sLetter[i])
 					return (char)(i+'a');
 			}
 		}
