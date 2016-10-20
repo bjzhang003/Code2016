@@ -33,7 +33,7 @@ int main()
 
 	Shortest_Palindrome Test;
 	Test.shortestPalindrome("aacecaaa");
-	tuple<int, int, int> Data;
+	cout<<"Test Makefile"<<endl;
 
 	std::cout << std::endl << std::endl << "End My Code Now !" << std::endl;
 	return 0;
